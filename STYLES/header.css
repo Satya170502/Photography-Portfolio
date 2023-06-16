@@ -3,7 +3,7 @@
 }
 
 .section {
-   background-color: #f9fbfe;
+   background-color:white;
 
  }
 .section-heading {
@@ -32,6 +32,7 @@
    position: fixed;
    top: 0;
    overflow: hidden;
+   z-index: 10;
 }
 .img-ct{
    display: flex;
@@ -54,7 +55,7 @@
 }
 #carouselEl{
    width: 70%;
-  
+  margin-bottom: 50px;
    
 }
 .navbar-image {
@@ -89,7 +90,7 @@ section {
 .background-video {
    position: relative;
    z-index: -1;
-   background: #f5f5f7;
+   background: linear-gradient(to right, #D99EC9,#F6F0C4);
 }
 div {
    display: block;
@@ -124,7 +125,7 @@ div{
    font-family: "Outfit",sans-serif;
    font-weight: 600;
    color: white;
-   margin-bottom: 30px;
+   margin-bottom: 20px;
 }
 h1{
    line-height: 1.2;
@@ -135,3 +136,48 @@ h1{
    
   
 }
+#GalleryEl{
+   margin-right: -10px;
+}
+.video-landing-nav2 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: var(--worksans);
+   padding: 10px 50px;
+   margin-top: -640px;
+   margin-left: -45px;
+}
+a {
+   text-decoration: none;
+}
+.video-landing-nav2 img {
+   width: 600px;
+   
+}
+img {
+   vertical-align: middle;
+   overflow-clip-margin: content-box;
+   overflow: clip;
+}
+.video-landing-content p {
+   font-size: 20px;
+   font-family: var(--worksans);
+   font-weight: 400;
+   color: white;
+   margin-bottom: -10px;
+}
+.text-center {
+   text-align: center!important;
+}
+p {
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
